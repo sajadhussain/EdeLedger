@@ -11,10 +11,12 @@ function initMap() {
 
 window.addEventListener('scroll', function(){
 if(window.scrollY > 150){
-    document.querySelector('#navbar').getElementsByClassName.opecity=0.5;
+    
+    document.querySelector('#navbar').style.opecity=0.5;
 }
 else{
-    document.querySelector('#navbar').getElementsByClassName.opecity=1;
+   
+    document.querySelector('#navbar').style.opecity=1;
 }
 });
 
