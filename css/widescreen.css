@@ -1,0 +1,17 @@
+ #what .items .item{
+     display: flex;
+   text-align: center;
+ }
+
+ /* Position icon */
+
+ #what .items .item i{
+     margin-right: 1.3rem;
+     align-self: center;
+     margin-bottom: 30px;
+ }
+
+
+    #contact #map{
+        flex:3;
+    }
