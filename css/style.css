@@ -149,7 +149,7 @@ text-center{
 
 /* section: What We Do */
 
-.items{
+#what .items{
     display: flex;
 }
 .item{
@@ -174,4 +174,14 @@ text-center{
 }
 #who .who-img{
     background:url('../img/people.jpg') no-repeat center center/cover;
+}
+
+#clients .items{
+    display: flex ;
+}
+
+#clients .items img{
+    display:block;
+    margin: auto;
+    width: 60%;
 }
